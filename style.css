@@ -22,8 +22,11 @@ html{
     background-position: center;
 }
 .logo{
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-right: 250px;
     width: 140px;
+    height: 50px;
 }
 .container{
     padding: 10px 5%;
@@ -31,8 +34,10 @@ html{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #373737;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.6);
 }
 nav ul li{
     display: inline-block;
@@ -42,8 +47,9 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
+    letter-spacing: 1px;
 }
 nav ul li a::after{
     content: '';
@@ -65,11 +71,10 @@ nav ul li a:hover{
     margin-top: 16%;
     font-size: 30px;
 }
-.header-text h1{
+.header-text h2{
     font-size: 60px;
-    margin-top: 20px;
 }
-.header-text h1 span{
+.multiText{
     color: #ff004f;
 }
 
@@ -141,6 +146,7 @@ nav ul li a:hover{
 /* ---------Services Section---------*/
 #services{
     padding: 30px 0;
+    background: linear-gradient(180deg, #7f00ff,#71092a);
 }
 .services-list{
     display: grid;
@@ -184,6 +190,7 @@ nav ul li a:hover{
 /* ---------Portfolio Section---------*/
 #portfolio{
     padding: 50px 0;
+    background: linear-gradient(15deg, #eaf111,#7f00ff);
 }
 .work-list{
     display: grid;
@@ -203,7 +210,7 @@ nav ul li a:hover{
     transition: transform 0.5s;
 }
 #workImage2{
-    height: 345px;
+    height: 355px;
 }
 .layer{
     width: 100%;
